@@ -1,0 +1,11 @@
+{
+  "name": "priorix",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PRIORIX: AI-Powered Intelligent Support Ticket Prioritization & Management System",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build && cd .. && node -e \"require('fs').cpSync('frontend/dist', 'dist', {recursive: true})\"",
+    "dev": "cd frontend && npm run dev",
+    "preview": "cd frontend && npm run preview"
+  }
+}

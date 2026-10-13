@@ -1,0 +1,75 @@
+========================================================================
+PRIORIX — AI-Powered Support Ticket Prioritization & Management System
+Tagline: "Prioritize smarter. Resolve faster."
+========================================================================
+
+1. QUICK START (WINDOWS):
+-------------------------
+Just double-click "run.bat" in this folder!
+- Starts the FastAPI backend (http://localhost:8000)
+- Starts the Vite React frontend (http://localhost:5173)
+- Automatically opens the website in your default web browser.
+
+Alternatively in PowerShell:
+.\run.ps1
+
+
+2. DEMO LOGIN CREDENTIALS:
+--------------------------
+Click any of the 1-click persona buttons on the login screen, or type:
+- Administrator : admin / admin (or admin@priorix.local / PriorixDemo2026!)
+- Support Agent : agent / agent (or agent@priorix.local / PriorixDemo2026!)
+- Customer      : customer / customer (or customer@priorix.local / PriorixDemo2026!)
+
+
+3. DIRECT PAGE LINKS:
+---------------------
+- Main App Portal : http://localhost:5173/
+- Login Screen    : http://localhost:5173/login
+- Admin Analytics : http://localhost:5173/admin
+- Agent Workspace : http://localhost:5173/agent
+- Customer Portal : http://localhost:5173/customer
+- API Docs        : http://localhost:5173/docs
+
+
+4. INCLUDED PRE-SEEDED DATASET:
+-------------------------------
+Includes 15 real-life enterprise problem tickets (PRX-1001 to PRX-1015):
+- Double Billing Charge ($14,500)
+- Mobile App iOS 18 Crash (SIGSEGV)
+- CSV Dataset Export 504 Timeout
+- FIDO2 Hardware Key Admin Lockout
+- GDPR Article 17 Data Erasure Notice
+- APAC Cloud Storage CORS Upload Error
+- Frankfurt Database DNS Drops
+- 502 Bad Gateway Outage (INC-2026-001)
+- SSO SAML Expiration Warning
+
+
+5. GITHUB & VERCEL DEPLOYMENT (ZERO CONFIGURATION):
+---------------------------------------------------
+This project is pre-configured to build cleanly on Vercel without 404 errors:
+
+To push to GitHub:
+Method A (Easiest - GitHub Web UI):
+1. Go to https://github.com/new and create a new repository (e.g. "priorix-support").
+2. Extract "PRIORIX_Website_Submission.zip" or open your "GAT" project folder.
+3. Click "upload an existing file" on GitHub, drag all files in, and commit.
+
+Method B (Using Git):
+1. git init
+2. git add .
+3. git commit -m "feat: deploy PRIORIX support system"
+4. git branch -M main
+5. git remote add origin https://github.com/<your-username>/<your-repo-name>.git
+6. git push -u origin main
+
+To deploy on Vercel:
+1. Go to https://vercel.com and log in.
+2. Click "Add New..." -> "Project".
+3. Import your GitHub repository.
+4. Keep all default settings (Root Directory as ./, Framework Preset as Vite).
+5. Click "Deploy".
+6. In ~30 seconds your website is live worldwide with full ticket management,
+   15 real-life enterprise tickets, and AI triage!
+========================================================================

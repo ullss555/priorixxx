@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "buildCommand": "cd frontend && npm install && npm run build && cd .. && node -e \"require('fs').cpSync('frontend/dist', 'dist', {recursive: true})\"",
+  "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
